@@ -2,7 +2,7 @@
 
 Well .. I was going to explain it, but it was too verbose, so here you go, see it in real life:
 
-!(Demo)[/demo.gif?raw=true]
+![Demo](/demo.gif?raw=true)
 
 ## Installation
 
