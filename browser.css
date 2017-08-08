@@ -11,19 +11,18 @@
 }
 
 #toolbar {
+  display: none;
   position: fixed;
   left: 8px;
   top: 4px;
   right: 8px;
-  opacity: 0;
   transition: opacity 0.2s ease-in-out;
-  display: flex;
   align-items: center;
   background-color: rgba(196, 196, 196, .6);
   border-radius: 8px;
 }
 #toolbar.visible {
-  opacity: 1;
+  display: flex;
 }
 
 #tool-go {
