@@ -6,6 +6,11 @@ webview.addEventListener('loadstop', () => {
   webview.insertCSS({ file: 'webview.css' })
   webview.setZoom(0.7)
 })
+webview.addEventListener('permissionrequest', e => {
+  if (e.permission === 'media') {
+    e.request.allow()
+  }
+})
 
 go.onkeypress = e => {
   if (e.which === 13) {
