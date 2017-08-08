@@ -1,0 +1,88 @@
+#webview {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+#toolbar {
+  position: fixed;
+  left: 8px;
+  top: 4px;
+  right: 8px;
+  opacity: 0;
+  transition: opacity 0.2s ease-in-out;
+  display: flex;
+  align-items: center;
+  background-color: rgba(196, 196, 196, .6);
+  border-radius: 8px;
+}
+#toolbar:hover {
+  opacity: 1;
+}
+
+#tool-go {
+  padding: 8px;
+  border: none;
+  flex: 1;
+  background-color: transparent;
+  color: white;
+}
+#tool-go:focus{
+  outline: none;
+}
+
+#tool-drag {
+  -webkit-app-region: drag;
+  margin: 4px;
+  background-color: transparent;
+}
+
+#shadow-top {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 5px;
+  pointer-events: none;
+  background: linear-gradient(to bottom, rgba(0,0,0,0.15) 0%, rgba(0,0,0,0) 100%);
+}
+
+#shadow-bottom {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 5px;
+  pointer-events: none;
+  background: linear-gradient(to top, rgba(0,0,0,0.15) 0%, rgba(0,0,0,0) 100%);
+}
+
+#shadow-right {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 5px;
+  height: 100%;
+  pointer-events: none;
+  background: linear-gradient(to left, rgba(0,0,0,0.15) 0%, rgba(0,0,0,0) 100%);
+}
+
+#shadow-left {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 5px;
+  height: 100%;
+  pointer-events: none;
+  background: linear-gradient(to right, rgba(0,0,0,0.15) 0%, rgba(0,0,0,0) 100%);
+}

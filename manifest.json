@@ -1,0 +1,25 @@
+{
+   "manifest_version": 2,
+   "name": "Kumohami",
+   "short_name": "Kumohami",
+   "version": "0.0.1",
+   "description": "",
+   "icons": {
+      "128": "assets/pink-mushroom-cloud-128.png",
+      "16": "assets/pink-mushroom-cloud-16.png"
+   },
+   "app": {
+      "background": {
+         "scripts": [ "background.js" ]
+      }
+   },
+   "permissions": [
+     "webview",
+     "alwaysOnTopWindows",
+     "storage",
+     "https://*/*",
+     "http://*/*"
+   ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "minimum_chrome_version": "38"
+}
