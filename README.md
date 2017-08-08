@@ -1,3 +1,5 @@
+Star this if it's interesting to you :)
+
 ## What is this ?
 
 Well .. I was going to explain it, but it was too verbose, so here you go, see it in action:
