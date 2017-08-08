@@ -1,8 +1,10 @@
 ## What is this ?
 
-Well .. I was going to explain it, but it was too verbose, so here you go, see it in real life:
+Well .. I was going to explain it, but it was too verbose, so here you go, see it in action:
 
 ![Demo](/demo.gif?raw=true)
+
+![Demo](/demo.png?raw=true)
 
 ## Installation
 
