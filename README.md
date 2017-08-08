@@ -12,5 +12,5 @@ Well .. I was going to explain it, but it was too verbose, so here you go, see i
 
 ## Usage
 
-* Hover the cursor on top of the app, the toolbar will appear, on the toolbar, you can type the url and press enter to access it, also, there's a draggable area on the right, you can reposition the app by dragging it.
+* Press `Ctrl` key to toggle the toolbar, on the toolbar, you can type the url and press enter to access it, also, there's a draggable area on the right, you can reposition the app by dragging it.
 * On Linux, the draggable area might not work with your window manager, bspwm in my case, use the way that the window manager provides to you.

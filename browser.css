@@ -22,7 +22,7 @@
   background-color: rgba(196, 196, 196, .6);
   border-radius: 8px;
 }
-#toolbar:hover {
+#toolbar.visible {
   opacity: 1;
 }
 
