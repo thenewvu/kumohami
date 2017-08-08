@@ -1,15 +1,8 @@
-## The problem I had
+## What is this ?
 
-I need a browser:
+Well .. I was going to explain it, but it was too verbose, so here you go, see it in real life:
 
-* Minimal, there's only the url input may be?
-* Always on top.
-* Based on Chrome (because it currently has highest market share).
-* Cross desktop platform: Linux, OS X.
-
-## The solution I made
-
-Take advantage from Chrome App, I built this one.
+!(Demo)[/demo.gif?raw=true]
 
 ## Installation
 
